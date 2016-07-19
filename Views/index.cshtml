@@ -1,27 +1,18 @@
 <h1>Anagram Generator</h1>
-<br>
-<br>
 
 <form action="/anagram_generated" method="post">
-  <label>Compare two anagrams</label>
-  <input type="text" name="anagram">
+  <label>Please enter five words: </label>
+  <input type="text" name="anagram1">
+  <input type="text" name="anagram2">
+  <input type="text" name="anagram3">
+  <input type="text" name="anagram4">
+  <input type="text" name="anagram5">
   <button type="submit">Submit</button>
 </form>
 
-<br>
-<br>
-
-<form action="/anagram_generated" method="post">
-  <label>Compare multiple anagrams</label>
-  <input type="text" name="anagram">
-  <button type="submit">Submit</button>
-</form>
-
-<br>
-<br>
-
-<form action="/anagram_generated" method="post">
+<form action="/partial_anagram_generated" method="post">
   <label>Compare two "partial" anagrams</label>
-  <input type="text" name="anagram">
+  <input type="text" name="partial1">
+  <input type="text" name="partial2">
   <button type="submit">Submit</button>
 </form>
